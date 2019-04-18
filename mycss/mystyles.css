@@ -1,0 +1,55 @@
+/* main body styling */
+.jumbotron {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #A6E7FE;
+}
+.row {
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+}
+.body-background {
+    background-color: #e7e7e7;
+}
+
+/* navbar styling */
+.nav-link {
+    color:black !important;
+}
+.navbar {
+    border-bottom: solid rgba(0, 0, 0, 0.199);
+    margin-bottom: 1rem;
+    padding: 0rem;
+    background-color: #A6E7FE;
+}
+.navbar-brand {
+    background-color: #A6E7FE;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+/* screens larger than sm */
+@media screen and (min-width: 576px){
+    .navbar {
+        border-bottom: solid rgba(0, 0, 0, 0.199);
+        margin-bottom: 1rem;
+        padding: 0rem;
+        background-color: white;
+    }
+    .navbar-brand {
+        background-color: #A6E7FE;
+        margin-left: 1rem;
+        padding: 0.5rem;
+    }
+.navbar-brand:hover {
+background-color: lightgray;
+color: black;
+}
+}
+.dropdown-item:active {
+    background-color: grey;
+}
+    /* sets spacing for toggler items */
+a.nav-link {
+    margin-left: 1rem;
+}
+
